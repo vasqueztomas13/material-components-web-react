@@ -5,6 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --config test/screenshot/webpack.config.js --content-base test/screenshot",
     "commitmsg": "validate-commit-msg",
+    "prepush": "node test/screenshot/screenshot-suite.js",
     "fix": "eslint --fix packages test",
     "lint": "eslint packages test",
     "pretest": "npm run lint",
