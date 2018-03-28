@@ -1,3 +1,30 @@
 // @import "@material/top-app-bar/mdc-top-app-bar.scss";
 // TODO: import sass instead
-@import "./node_modules/@material/top-app-bar/dist/mdc.top-app-bar.css";
+// Base style
+$mdc-theme-primary: #004c91 !default; // baseline purple, 500 tone
+$mdc-theme-secondary: #018786 !default; // baseline teal, 600 tone
+
+// All demo pages have a top toolbar, and most of them use theme variables.
+// Import these *after* setting theme colors to override defaults in mdc-theme.
+@import "@material/theme/mdc-theme";
+@import "@material/elevation/mdc-elevation";
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/list/mdc-list";
+@import "@material/drawer/mdc-drawer";
+
+.mdc-drawer__header {
+  height: 56px;
+}
+
+.mdc-top-app-bar--short-collapsed.expand-top-bar {
+  @include mdc-elevation(0);
+
+  transition: width 175ms 20ms linear, box-shadow 15ms linear;
+}
+
+.mdc-top-app-bar--short {
+  @include mdc-top-app-bar-short-border-radius(0px);
+
+  transition: width 135ms linear, box-shadow 15ms 138ms linear;
+  z-index: 6;
+}

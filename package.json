@@ -66,5 +66,12 @@
     "validate-commit-msg": "^2.14.0",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.2"
+  },
+  "dependencies": {
+    "@material/drawer": "^0.33.0",
+    "@material/elevation": "^0.28.0",
+    "@material/list": "^0.33.0",
+    "@material/theme": "^0.33.0",
+    "@material/top-app-bar": "^0.33.0"
   }
 }
