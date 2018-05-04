@@ -26,6 +26,7 @@
         "allowed": [
           "button",
           "card",
+          "chips",
           "fab",
           "ripple",
           "top-app-bar"
@@ -38,6 +39,7 @@
     "@google-cloud/storage": "^1.6.0",
     "@material/button": "^0.34.1",
     "@material/card": "^0.34.1",
+    "@material/chips": "^0.35.1",
     "@material/fab": "^0.34.1",
     "@material/floating-label": "^0.34.0",
     "@material/line-ripple": "^0.34.0",
