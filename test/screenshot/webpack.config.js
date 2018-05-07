@@ -1,6 +1,7 @@
 module.exports = [
   ...require('./button/webpack.config.js'),
   ...require('./card/webpack.config.js'),
+  ...require('./chip/webpack.config.js'),
   ...require('./fab/webpack.config.js'),
   ...require('./floating-label/webpack.config.js'),
   ...require('./line-ripple/webpack.config.js'),

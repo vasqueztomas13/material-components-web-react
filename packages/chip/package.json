@@ -1,0 +1,23 @@
+{
+  "name": "@material/react-chip",
+  "version": "0.0.0",
+  "description": "The Material Components Web - React Chip",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/material-components/material-components-web-react.git"
+  },
+  "keywords": [
+    "mdc web react",
+    "material components react",
+    "material design",
+    "chip"
+  ],
+  "dependencies": {
+    "@material/chip": "^0.35.1",
+    "@material/react-ripple": "^0.0.0",
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2"
+  }
+}
