@@ -4,6 +4,7 @@ module.exports = [
   ...require('./chips/webpack.config.js'),
   ...require('./fab/webpack.config.js'),
   ...require('./floating-label/webpack.config.js'),
+  ...require('./icon-button/webpack.config.js'),
   ...require('./line-ripple/webpack.config.js'),
   ...require('./material-icon/webpack.config.js'),
   ...require('./notched-outline/webpack.config.js'),
